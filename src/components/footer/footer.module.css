@@ -1,0 +1,32 @@
+.container {
+    height: 50px;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.imgContainer {
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+.icon:hover {
+    opacity: 1;
+    scale: 1.2;
+    transition: all 0.1s ease-in;
+}
